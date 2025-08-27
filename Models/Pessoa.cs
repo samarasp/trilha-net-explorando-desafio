@@ -4,15 +4,15 @@ public class Pessoa
 {
     public Pessoa() { }
 
-    public Pessoa(string nome)
+    public Pessoa(string Samara)
     {
-        Nome = nome;
+        Nome = Samara;
     }
 
-    public Pessoa(string nome, string sobrenome)
+    public Pessoa(string Samara, string Silva)
     {
-        Nome = nome;
-        Sobrenome = sobrenome;
+        Nome = Samara;
+        Sobrenome = Silva;
     }
 
     public string Nome { get; set; }
